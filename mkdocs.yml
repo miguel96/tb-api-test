@@ -1,0 +1,129 @@
+# Project information
+site_name: "Tweet Binder"
+site_url: "https://audienseco.github.com/tweetbinder-api-docs/"
+site_author: "Tweet Binder"
+site_description: >-
+  Welcome to the API of Tweet Binder! Unlock the Power of Twitter X analytics
+  with Tweet Binder's API and build your own dashboards!
+
+# License
+copyright: Tweet Binder by Audiense CC BY-NC 4.0
+
+# Configuration
+theme:
+  logo: "images/tb.svg"
+  favicon: "images/tb.svg"
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - navigation.instant
+    - navigation.indexes
+    - navigation.footer
+    - navigation.sections
+    - navigation.tracking
+  name: "material"
+  language: "en"
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to system preference
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: "https://twitter.com/tweetbinder"
+    - icon: fontawesome/brands/facebook
+      link: "https://es-es.facebook.com/tweetbinder"
+    - icon: fontawesome/brands/youtube
+      link: "https://www.youtube.com/channel/UCW-7d6DwZbBRf6MlAQNP68Q"
+    - icon: fontawesome/brands/linkedin
+      link: "https://es.linkedin.com/company/tweet-binder/"
+
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - social
+  - git-revision-date-localized:
+      type: date
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
+  - toc:
+      permalink: true
+
+# Page tree
+nav:
+  - Intro: README.md
+  - APIS Overview: apis-overview.md
+  - API Documentation:
+    - documentation/README.md
+    - Endpoints:
+      - documentation/endpoints/README.md
+      - Basic Endpoints: documentation/endpoints/basic-endpoints.md
+      - Reports Endpoints:
+        - documentation/endpoints/reports-endpoints/README.md
+        - Historical Searches: documentation/endpoints/reports-endpoints/historical-searches.md
+        - Live reports: documentation/endpoints/reports-endpoints/live-reports.md
+      - Profiles' API endpoints: documentation/endpoints/profiles-api-endpoints.md
+      - User Trackers' API endpoints: documentation/endpoints/user-trackers-api-endpoints.md
+    - Results navigation: documentation/results-navigation.md
+  - Apply for the API: apply-for-the-api.md
+  
