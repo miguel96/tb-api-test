@@ -1,0 +1,9 @@
+title: X Users Reports
+nav:
+- index.md
+- create-use-report.md
+- list-user-reports.md
+- get-user-report-stats.md
+- stop-user-report.md
+- create-tag.md
+- add-or-remove-tags.md

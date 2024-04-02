@@ -1,0 +1,9 @@
+title: Live Reports
+nav:
+- create-live-report.md
+- update-report-stream.md
+- stop-report-stream.md
+- restart-report-stream.md
+- get-reports-updated-since-timestamp.md
+- check-report-errors.md
+- get-tracking-reports.md
