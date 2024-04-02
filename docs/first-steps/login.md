@@ -1,5 +1,5 @@
 ---
-icon: material/emoticon-happy 
+method: POST
 ---
 
 # Login

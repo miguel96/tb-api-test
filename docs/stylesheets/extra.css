@@ -7,3 +7,39 @@
 * {
   --md-typeset-a-color: rgb(123, 136, 204);
 }
+
+span.post::before,
+span.get::before,
+span.put::before,
+span.delete::before,
+span.patch::before {
+    font-weight: bold;
+    font-size: 0.8em;
+    min-width: 4em;
+    margin-right: 0.5em;
+}
+
+span.post::before {
+    content: "POST";
+    color: #FF5733; /* Color naranja */
+}
+
+span.get::before {
+    content: "GET";
+    color: #119c36; /* Color verde */
+}
+
+span.put::before {
+    content: "PUT";
+    color: #3388FF; /* Color azul */
+}
+
+span.delete::before {
+    content: "DELETE";
+    color: #FF3333; /* Color rojo */
+}
+
+span.patch::before {
+    content: "PATCH";
+    color: #FFD700; /* Color dorado */
+}

@@ -1,1 +1,5 @@
+---
+method: GET
+---
+
 # Check balance
