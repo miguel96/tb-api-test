@@ -1,34 +1,56 @@
-# Intro
+# Tweet Binder API Documentation
 
-Our API allows developers to access real-time and historical statistical data from X (Twitter) as well as insights. With our API, you can retrieve public information on hashtags, keywords, mentions, users and more to build your own dashboards and integrate it with your tools.&#x20;
+## Installation
 
-The Tweet Binder API is 100% Twitter compliant and complies with all Twitter regulations regarding downloading content.
+This guide will walk you through the process of setting up MkDocs locally using Poetry.
 
-Elevate your social media strategy with the robust and dynamic Tweet Binder API. With this powerful tool at your fingertips, you gain access to a treasure trove of insights and analytics derived from Twitter public conversations and users, enabling you to harness the pulse of social media in real-time.
+### 1. Clone the Repository
 
-What can you do with Tweet Binder's API?
+Clone the repository to your local machine using the following command:
 
-1. **Comprehensive Analytics:** Dive deep into Twitter data to understand engagement, sentiment, reach, and influence. Leverage comprehensive analytics to gain actionable insights into trending topics, influential users, and audience behavior.
-2. **Real-time Monitoring:** Stay ahead of the curve by monitoring live Twitter conversations. Track hashtags, keywords, and mentions in real-time, enabling swift responses and agile campaign adjustments.
-3. **Custom Reporting:** Tailor-made reports that suit your specific needs, select only the stats that you need and craft insightful visualizations and reports, simplifying complex data into easily understandable metrics for your team or clients.
-4. **Enhanced Campaign Management:** Optimize your marketing campaigns by measuring their impact and effectiveness. Evaluate performance metrics and fine-tune strategies for maximum engagement and ROI.
-5. **Seamless Integration:** Integrate effortlessly with your existing systems and tools. Seamlessly merge Tweet Binder's powerful analytics into your preferred platforms, enhancing your workflow efficiency.
+```bash
+git clone git@github.com:AudienseCo/tweetbinder-api-docs.git
+```
 
-To access the API, simply [apply for authorization](apply-for-the-api.md). Once approved (less than 24 hours), you'll unleash the full potential of real-time Twitter analytics, empowering your brand to make informed decisions, engage effectively, and stand out in the ever-evolving social media landscape.
+### 2. Install Poetry
 
-Our [documentation](documentation/) provides a comprehensive guide on how to use our API, including endpoints, authentication and response formats.&#x20;
+If you haven't already installed Poetry, you can do so by following the instructions in the [official documentation](https://python-poetry.org/docs/#installation).
 
-{% content-ref url="apply-for-the-api.md" %}
-[apply-for-the-api.md](apply-for-the-api.md)
-{% endcontent-ref %}
+### 3. Install Dependencies
 
-Whether you're building a social media monitoring tool or simply want to integrate Twitter insights into your application, our API is the perfect solution.
+Navigate to the root directory of your cloned repository and install the dependencies using Poetry:
 
-With the Tweet Binder API you can collect 3 types of information in three different sets of endpoints or APIs:
+```bash
+poetry install
+```
 
-* **Reports API**: Statistics on content: hashtags, user posts, mentions of specific keywords, general stats, user rankings, etc. Provided by our [**REPORTS API**](./#tweets-api).
-* **Profiles API**: Public user data such as username, name, location, etc. Provided by our [**PROFILES API**](./#tweets-api)**.**
-* **User Tracker API**: User evolution data over time such as followers, followed, lists, likes, etc. Provided by our [**USER TRACKERS API**](./#user-trackers-api)**.**
+This will install all the necessary dependencies, including MkDocs.
 
-There are also some basic endpoints that are common to all the APIs, those are called **BASIC ENDPOINTS**. If you need implementation details about endpoints, examples and a postman collection please check our documentation:&#x20;
+### 4. Start MkDocs Server
 
+To start the MkDocs server, use Poetry's `run` command:
+
+```bash
+poetry run mkdocs serve
+```
+
+This will build your documentation and start a development server. You can view your documentation by visiting `http://127.0.0.1:8000` in your web browser.
+
+## Mkdocs references
+
+- [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/getting-started/): Material for MkDocs is a powerful documentation framework on top of MkDocs, a static site generator for project documentation
+- [MkDocs Awesome Pages Plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin): The awesome-pages plugin allows us to customize how our pages show up the navigation without having to configure the full structure in the mkdocs.yml. 
+
+## Changes
+
+- Custom nav item template: In `overrides/partials/nav-item.html` we customized the navigation items to support REST documentation. To add a new REST method with method metadata, add the following metadata to the page:
+
+    ```markdown
+    ---
+
+    method: POST # HTTP method (e.g., GET, POST, PUT, ...)
+
+    ---
+
+    # Title of the page
+    ````
