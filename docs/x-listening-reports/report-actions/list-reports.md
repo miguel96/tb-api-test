@@ -1,2 +1,6 @@
+---
+method: GET
+---
+
 # List reports
 

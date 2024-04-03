@@ -1,2 +1,6 @@
+---
+method: POST
+---
+
 # Create tag
 

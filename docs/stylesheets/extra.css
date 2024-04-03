@@ -8,14 +8,25 @@
   --md-typeset-a-color: rgb(123, 136, 204);
 }
 
+span.post,
+span.get,
+span.put,
+span.delete,
+span.patch {
+    display: flex;
+}
+
 span.post::before,
 span.get::before,
 span.put::before,
 span.delete::before,
 span.patch::before {
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
     font-weight: bold;
     font-size: 0.8em;
-    min-width: 4em;
+    width: 3em;
     margin-right: 0.5em;
 }
 

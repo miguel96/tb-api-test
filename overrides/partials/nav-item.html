@@ -14,13 +14,8 @@
   {% if nav_item.is_page and nav_item.meta.icon %}
     {% include ".icons/" ~ nav_item.meta.icon ~ ".svg" %}
   {% endif %}
-  {% if nav_item.is_page and nav_item.meta.method == "POST" %}
-  <span class="md-ellipsis post">
-  {% elif nav_item.is_page and nav_item.meta.method == "GET" %}
-  <span class="md-ellipsis get">
-  {% else %}
-  <span class="md-ellipsis">
-  {% endif %}
+  {% set method = nav_item.meta.method|lower if nav_item.is_page else '' %}
+  <span class="md-ellipsis {{ method }}">
     {{ ref.title }}
   </span>
   {% if nav_item.is_page and nav_item.meta.status %}
