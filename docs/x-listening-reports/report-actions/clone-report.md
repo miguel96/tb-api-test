@@ -1,2 +1,6 @@
+---
+method: PUT
+---
+
 # Clone report
 
