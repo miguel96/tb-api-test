@@ -2,6 +2,8 @@ Welcome to the Tweet Binder API, we are happy to have you here and we hope you f
 
 The Tweet Binder API is intended to obtain X (Twitter) analytics, if you are interested in obtaining posts (tweets) or raw content please know that there are limitations imposed by Twitter for the redistribution of content.
 
+[APPLY FOR THE API.](https://audiencefirst.typeform.com/to/z3NuSnuy)
+
 What can you use the Tweet Binder API for?
 
 The use cases are multiple and we could summarize them in:
