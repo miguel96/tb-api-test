@@ -4,7 +4,7 @@ The Tweet Binder API is intended to obtain X (Twitter) analytics, if you are int
 
 [APPLY FOR THE API.](https://audiencefirst.typeform.com/to/z3NuSnuy)
 
-What can you use the Tweet Binder API for?
+## What can you use the Tweet Binder API for?
 
 The use cases are multiple and we could summarize them in:
 
