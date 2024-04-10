@@ -1,2 +1,6 @@
+---
+method: PUT
+---
+
 # Slice report
 
