@@ -8,7 +8,7 @@ Endpoint: {{apiRoute}}/authorize/email/login
 
 Payload:
 
-{
+``{
 	"email": "{{email}}",
 	"password": "{{password}}"
-}
+}``
