@@ -22,7 +22,7 @@ The main variables of the balance sheets are:
 
 - Twitter parallel user tracker: number of uses reports one user can have running at the same time.
 
-- 
+
 ``{
     "user": {
         "_id": "ef68cbf9-6107-4f28-af0b-0b8681be7033",
