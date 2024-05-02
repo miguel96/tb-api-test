@@ -6,11 +6,7 @@ method: PUT
 
 **Endpoint:** {{apiRoute}}/reports/:reportId/settings
 
-**What it does:** This endpoint is used to edit or update the query of a report.
-
-**Limit of posts:** 50,000 per report.
-
-**Payload Example:** 
+**What it does:** This endpoint is used to edit or update the stream of a report. Usually used to edit the query of the report.
 
 **Payload example:**
 
