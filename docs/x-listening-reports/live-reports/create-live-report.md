@@ -28,6 +28,8 @@ method: POST
 ```
 The **stream** parameter is used to establish in unix time the start and the end of the tracking. The report will collect information to generate stats within that timeframe. The endDate is optional. The dates parameters **startDate** and **endDate** indicates when the reports starts and finishes. The report will not get tweets of the end date.
 
+Live reports have a **stream** associated, the stream is the live tracking that contains teh query and that keeps the report running.
+
 The parameter "limit" will establish a limit in the number of posts the report will get in case you want to get less than 50,000. 
 
 After you run the query and the report status is **generated** you will get a **"resourceId"**, to get the stats you will need to execute the action "Get report stats" (check "Report Actions"). If you run the action too early, when the report is not generated yet or when the report has not received any post (tweet) yet, you will get an error. To check the status of the report execute the action "Get report state" (check "Report Actions").
