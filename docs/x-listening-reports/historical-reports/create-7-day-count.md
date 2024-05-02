@@ -6,6 +6,12 @@ method: POST
 
 **Endpoint:** {{apiRoute}}/search/twitter-count/7-day
 
+**What it does:** This endpoint will give you the number of posts (tweets) of any given query in the last 7 days.
+
+**Limit of posts:** no limit.
+
+Payload Example:
+
 **Payload Example:** 
 
 ```
