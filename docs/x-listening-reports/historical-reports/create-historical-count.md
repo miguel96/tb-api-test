@@ -14,12 +14,13 @@ method: POST
 
 ```
 {
-	"query":
-        {
+	"query":{
         "or":["Osasuna","#Osasuna"],
-      	"must": [""],
+    	"must": ["#Football"],
         "nor":["@RealMadrid"],
         "lang":"en",
+        "startDate":1142981988,
+        "endDate":1699434351,
         "isRetweet":"included"
 	}
 }
