@@ -21,8 +21,8 @@ method: POST
         "limit": 100
 	},
 	"stream":{
-		"startDate":{{startDate}},
-    "endDate": {{endDate}}
+	"startDate":{{startDate}},
+	"endDate": {{endDate}}
 	}
 }
 ```
