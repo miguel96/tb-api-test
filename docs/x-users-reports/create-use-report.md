@@ -2,5 +2,5 @@
 method: POST
 ---
 
-# Create use report
+# Create user report
 
