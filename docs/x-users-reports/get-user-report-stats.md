@@ -11,8 +11,8 @@ method: GET
 There are three main parameters when checking tracker stats. By filtering a tracker by date, you can see how many followers it grew in that period. These parameters are:
 
 - startDate:
- - Unix time (seconds).
-- - Reference date as start to get first stats doc
+  - Unix time (seconds).
+  - Reference date as start to get first stats doc
 - endDate
 - - Unix time (seconds).
 - - Reference date to get last stats doc
