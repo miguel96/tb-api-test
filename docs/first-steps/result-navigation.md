@@ -32,7 +32,7 @@ Use these queries to navigate the results you will get from Tweet Binder's API.
 
 **Pagination filters**:
 
--offset: page number, ie. “?offset=1”
+- offset: page number, ie. “?offset=1”
 - limit: resultset size limit, ie. “?limit=1”
 
 **Field filters**: Other than the pagination filters, you can filter by any of the document's fields, although some of them might slow down the response. For instance:
