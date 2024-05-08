@@ -4,7 +4,7 @@ method: GET
 
 # Check balance
 
-**Endpoint:*** {{apiRoute}}/users/me
+**Endpoint:** {{apiRoute}}/users/me
 
 Depending on your subscription, you will have different balances to create reports, etc.
 
