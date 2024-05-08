@@ -2,6 +2,9 @@ Welcome to the Tweet Binder API, we are happy to have you here and we hope you f
 
 ApiRoute = https://api2.tweetbinder.com
 
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/27823993-699ddeb4-f925-4238-922f-f3524379c207?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D27823993-699ddeb4-f925-4238-922f-f3524379c207%26entityType%3Dcollection%26workspaceId%3D45566d5f-fc96-4603-b411-01380184e0b4)
+Everyone on Postman can view and fork this public collection.
+
 
 The Tweet Binder API is intended to obtain X (Twitter) analytics, if you are interested in obtaining posts (tweets) or raw content please know that there are limitations imposed by Twitter for the redistribution of content.
 
