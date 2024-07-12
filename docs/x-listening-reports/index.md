@@ -20,36 +20,32 @@ These are some parameters/operators you can use:
 |Operator |Example|
 |-----|--------|
 |keyword|Paris       |
-|Egg  |12      |
-
-	
-	
-OR	Paris OR Pamplona OR "New York"
-emoji	Example: (😃 OR 😡) 😬
-"exact phrase match"	"Tweet Binder is great"
-#	#Osasuna
-@tweetbinder 	@ElonMusk
-$	$BTC
-from:	from:tweetbinder
-to:	to:tweetbinder
-url:	url:https://www.tweetbinder.com
-list:	lists:1492601169428025349
-has:media	"Tweet Binder" has:media
-lang:	"Tweet Binder" lang:en
-retweets_of:	retweets_of:tweetbinder
-in_reply_to_tweet_id:	in_reply_to_tweet_id:1518703397020577793
-retweets_of_tweet_id:	retweets_of_tweet_id:1518703397020577793
-quotes_of_tweet_id:	quotes_of_tweet_id:1518703397020577793
-place:	place:chicago
-place_country:	place_contry:US
-is:retweet	"Tweet Binder" is:retweet
-is:reply	"Tweet Binder" is:reply
-is:quote	"Tweet Binder" is:quote
-is:verified	"Tweet Binder" is:verified
-has:images	"Tweet Binder" has:images
-has:video_link	"Tweet Binder" has:video_link
-has:geo	"Tweet Binder" has:geo
-has:hashtags	"Tweet Binder" has:hashtags
-has:cashtags	"Tweet Binder" has:cashtags
-has:links	"Tweet Binder" has:links
-has:mentions	"Tweet Binder" has:mentions
+|OR  |Paris OR Pamplona OR "New York"      |	
+|emoji|	Example: (😃 OR 😡) 😬
+|"exact phrase match"|	"Tweet Binder is great"
+|#|	#Osasuna
+|@tweetbinder| 	@ElonMusk
+|$|	$BTC
+|from:|	from:tweetbinder
+|to:|	to:tweetbinder
+|url:|	url:https://www.tweetbinder.com
+|list:|	lists:1492601169428025349
+|has:media|	"Tweet Binder" has:media
+|lang:|	"Tweet Binder" lang:en
+|retweets_of:|	retweets_of:tweetbinder
+|in_reply_to_tweet_id:|	in_reply_to_tweet_id:1518703397020577793
+|retweets_of_tweet_id:|	retweets_of_tweet_id:1518703397020577793
+|quotes_of_tweet_id:|	quotes_of_tweet_id:1518703397020577793
+|place:|	place:chicago
+|place_country:|	place_contry:US
+|is:retweet|	"Tweet Binder" is:retweet
+|is:reply|	"Tweet Binder" is:reply
+|is:quote|	"Tweet Binder" is:quote
+|is:verified|	"Tweet Binder" is:verified
+|has:images|	"Tweet Binder" has:images
+|has:video_link|	"Tweet Binder" has:video_link
+|has:geo|	"Tweet Binder" has:geo
+|has:hashtags|	"Tweet Binder" has:hashtags
+|has:cashtags|	"Tweet Binder" has:cashtags
+|has:links|	"Tweet Binder" has:links
+|has:mentions|	"Tweet Binder" has:mention
