@@ -25,7 +25,7 @@ All of the above can be obtained with our API. You will need credentials to log 
 
 [APPLY FOR THE API.](https://audiencefirst.typeform.com/to/z3NuSnuy)
 
-It happens in many cases that our clients have a different, special or very specific use case that is not included in our API. We can develop for you the output you want as we have done numerous times, [just talk to us] (https://www.tweetbinder.com/api/), so far we have created:
+It happens in many cases that our clients have a different, special or very specific use case that is not included in our API. We can develop for you the output you want as we have done numerous times, [just talk to us](https://www.tweetbinder.com/api/), so far we have created:
 
 - A new metric
 - A new set of metrics
