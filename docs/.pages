@@ -1,6 +1,7 @@
 # Page tree
 nav:
   - index.md
+  - pricing.md
   - first-steps
   - x-listening-reports
   - x-users-reports
