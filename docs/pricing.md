@@ -1,3 +1,3 @@
-## PRICING
+# PRICING
 
 In progress
