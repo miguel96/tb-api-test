@@ -21,7 +21,7 @@ These are some parameters/operators you can use:
 |-----|--------|
 |keyword|Paris       |
 |OR  |Paris OR Pamplona OR "New York"      |	
-|emoji|	Example: (😃 OR 😡) 😬
+|emoji|	(😃 OR 😡) 😬
 |"exact phrase match"|	"Tweet Binder is great"
 |#|	#Osasuna
 |@tweetbinder| 	@ElonMusk
