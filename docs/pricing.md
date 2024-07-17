@@ -14,6 +14,8 @@ Extras:
 - Extra Historical count: 0,5€
 - Extra X user report: 2,5€
 
+[Contact Sales now](mailto:javier.abrego@audiense.com){ .md-button .md-button--primary }
+
 [![Button Example]][Link]
 [Link]: mailto:javier.abrego@audiense.com 'Contact Sales.'
 [Button Example]: https://img.shields.io/badge/Title-37a779?style=for-the-badge
