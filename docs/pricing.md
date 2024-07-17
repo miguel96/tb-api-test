@@ -15,3 +15,6 @@ Extras:
 - Extra X user report: 2,5€
 
 <kbd> <br> [Contact Sales][mailto:javier.abrego@audiense.com] <br> </kbd>
+[![Button Example]][Link]
+[Link]: # 'Link with example title.'
+[Button Example]: https://img.shields.io/badge/Title-37a779?style=for-the-badge
