@@ -19,7 +19,7 @@ method: POST
     	"must": ["#Football"],
         "nor":["@RealMadrid"],
         "lang":"en",
-	"limit": 100,
+        "limit": 100,
         "isRetweet":"included"
 	}
 }

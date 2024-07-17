@@ -14,8 +14,7 @@ method: POST
 
 ```
 {
-	"query":
-        {
+	"query":{
         "or":["Osasuna","#Osasuna"],
     	"must": [""],
         "nor":["@RealMadrid"],
