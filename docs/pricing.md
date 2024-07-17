@@ -13,3 +13,5 @@ Extras:
 - Extra 7-day count: 0,2€
 - Extra Historical count: 0,5€
 - Extra X user report: 2,5€
+
+<kbd> <br> [Contact Sales][mailto:javier.abrego@audiense.com] <br> </kbd>
