@@ -16,4 +16,4 @@ Extras:
 - Extra X user report: 2,5€
 - Extra 1000 profiles: 2€
 
-[Contact Sales now](mailto:javier.abrego@audiense.com)
+[Contact Sales now](mailto:javier.abrego@audiense.com){ .md-button .md-button--primary }
