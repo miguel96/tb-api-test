@@ -6,7 +6,7 @@ ApiRoute = https://api2.tweetbinder.com
 
 The Tweet Binder API is intended to obtain X (Twitter) analytics, if you are interested in obtaining posts (tweets) or raw content please know that there are limitations imposed by Twitter for the redistribution of content.
 
-[Contact Sales now](mailto:javier.abrego@audiense.com){ .md-button .md-button--primary }
+[Contact Sales now](mailto:javier.abrego@audiense.com)
 
 ## What can you use the Tweet Binder API for?
 
@@ -37,4 +37,4 @@ It happens in many cases that our clients have a different, special or very spec
 
 If what you need is raw content from X (Twitter) we recommend that you go directly to the official Twitter API page.
 
-[Contact Sales now](mailto:javier.abrego@audiense.com){ .md-button .md-button--primary }
+[Contact Sales now](mailto:javier.abrego@audiense.com)
