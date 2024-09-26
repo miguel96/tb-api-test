@@ -8,6 +8,10 @@ method: GET
 
 **What it does:** This endpoint is used to get the stats of a report. The report must be **generated** in oder to get the stats.
 
+**NOTE:** The :reportCode is not the :reportId 
+
+Example: given this :reportId df688940-2bfd-4d15-bf55-fb3eebcd6c6d its :reportCode will be df688940 (the first chain of the :reportId)
+
 ## Stats - Structure
 
 The structure of a Tweet Binder stats JSON is the following:
