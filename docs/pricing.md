@@ -6,7 +6,7 @@ The Tweet Binder API plan has a base price of €175 per month which includes ac
 - 7-day count: 0,2€
 - Historical count: 0,5€
 - X user report: 0,75€
-- 50,000 profiles: 0,2€
+- 50,000 profiles: 0,9€
 
 [Contact Sales now](mailto:javier.abrego@audiense.com){ .md-button .md-button--primary }
 
