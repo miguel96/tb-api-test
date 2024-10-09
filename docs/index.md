@@ -6,7 +6,7 @@ ApiRoute = https://api2.tweetbinder.com
 
 The Tweet Binder API is intended to obtain X (Twitter) analytics, if you are interested in obtaining posts (tweets) or raw content please know that there are limitations imposed by Twitter for the redistribution of content.
 
-[Contact Sales now](mailto:javier.abrego@audiense.com){ .md-button .md-button--primary }
+[Contact us now](mailto:javier.abrego@audiense.com){ .md-button .md-button--primary }
 
 ## What can you use the Tweet Binder API for?
 
@@ -25,8 +25,6 @@ The use cases are multiple and we could summarize them in:
 
 All of the above can be obtained with our API. You will need credentials to log in and a balance of posts (tweets) to create your own reports and with that you will be able to operate.
 
-[APPLY FOR THE API.](https://audiencefirst.typeform.com/to/z3NuSnuy)
-
 It happens in many cases that our clients have a different, special or very specific use case that is not included in our API. We can develop for you the output you want as we have done numerous times, [just talk to us](https://www.tweetbinder.com/api/), so far we have created:
 
 - A new metric
@@ -37,4 +35,4 @@ It happens in many cases that our clients have a different, special or very spec
 
 If what you need is raw content from X (Twitter) we recommend that you go directly to the official Twitter API page.
 
-[Contact Sales now](mailto:javier.abrego@audiense.com){ .md-button .md-button--primary }
+[Contact us now](mailto:javier.abrego@audiense.com){ .md-button .md-button--primary }
