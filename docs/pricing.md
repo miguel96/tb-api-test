@@ -2,7 +2,7 @@
 
 The Tweet Binder API plan has a base price of €175 per month which includes access only. Once you have access you can purchase the following products:
 
-- Pack of 1000 tweets: 2€ (0,00175€ per tweet)
+- Pack of 1000 tweets: 1,75€ (0,00175€ per tweet)
 - 7-day count: 0,2€
 - Historical count: 0,5€
 - X user report: 0,75€
